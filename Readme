@@ -1,0 +1,43 @@
+Previsão de Infecção por AIDS utilizando Machine Learning
+Contexto
+Este projeto tem como objetivo desenvolver um modelo de machine learning para prever a infecção pelo vírus da AIDS. Utilizando um conjunto de dados que contém estatísticas de saúde e informações categóricas sobre pacientes diagnosticados com AIDS, criamos um modelo de classificação binária para determinar a presença ou ausência da infecção.
+
+Enunciado do Problema
+O problema aborda a previsão da infecção por AIDS com base em características e histórico médico dos pacientes. O objetivo é criar um modelo que possa identificar se um paciente está infectado ou não pelo vírus da AIDS.
+
+Conjunto de Dados
+Os dados utilizados no projeto estão distribuídos em quatro arquivos CSV, variando no número de pacientes representados:
+
+AIDS_Classification.csv
+AIDS_Classification_5000.csv
+AIDS_Classification_15000.csv
+AIDS_Classification_50000.csv
+Esses arquivos contêm informações detalhadas sobre os pacientes, incluindo:
+
+Tempo para falha ou censura
+Indicador de tratamento
+Idade
+Peso
+Histórico médico (hemofilia, atividade homossexual, uso de drogas intravenosas)
+Pontuação de Karnofsky
+Histórico de terapia antirretroviral
+Contagens de células CD4/CD8
+Raça
+Gênero
+Métricas de Avaliação
+Para avaliar o desempenho do modelo, utilizamos as seguintes métricas:
+
+Acurácia
+Sensibilidade
+Especificidade
+Precisão
+F1-score
+Entrega do Projeto
+O projeto consiste em um código Python completo que abrange todas as etapas, desde a análise exploratória dos dados até a avaliação do desempenho do modelo. O código está acompanhado de uma análise especializada que inclui:
+
+Descrição do Problema e Contexto: Apresentação do cenário do problema e dos objetivos do projeto.
+Análise Exploratória dos Dados: Visualizações e insights dos dados fornecidos.
+Processo de Pré-processamento de Dados: Descrição das técnicas de limpeza e preparação dos dados.
+Modelo de Machine Learning: Detalhes sobre o modelo utilizado para a classificação.
+Avaliação do Desempenho: Análise das métricas de desempenho do modelo.
+Conclusões e Recomendações: Resumo dos resultados e sugestões para trabalhos futuros.
